@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "tvwigi hide banner",
+  "version": "1.0",
+  "description": "tvwiki hide banner",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
